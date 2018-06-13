@@ -19,7 +19,7 @@ router.use(session({
 
   router.use("/user", require("./register"));
   router.use("/user", require("./login"));
-  router.use("/user", require("./isLogin"));
+  router.use("/user", require("./islogin"));
 
 
   router.use((req,res,next)=>{
